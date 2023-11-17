@@ -1,0 +1,57 @@
+/*Color personalizado  #b6ca67*/
+.tabulo-bg-color {
+    background-color: #b6ca67; 
+}
+
+/*sin clic*/
+.no-click-container {
+    pointer-events: none;
+}
+
+/*Fuentes*/
+/*Preguntar a Marta como usar fuentes alternativas*/
+@import url('https://fonts.googleapis.com/css2?famiily=Montserrat&displauy=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@font-face {
+    font-family: 'Personalizado';
+    src: url(/fonts/RocknRollOne-Regular.ttf);
+}
+
+body{
+    padding-top: 140px;
+    font-family: 'Personalizado';
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+h1 {
+    font-family: 'Personalizado';
+    font-style: normal;
+    font-weight: 400;
+}
+
+p , ul {
+    font-family: 'Personalizado';
+    font-style: normal;
+    font-weight: 400;
+}
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+
+
+/*mediaQ*/
+@media (max-width768px) {
+    #intro {
+        width: 90% !important;
+    }
+}
